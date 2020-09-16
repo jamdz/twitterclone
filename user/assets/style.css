@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*wrapper css style*/
+
+.wrapper {
+    display: flex;
+}
+
+
+/*left side-bar css styles*/
+
+.left-side-bar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 28%;
+    height: 1000px;
+}
+
+.site-logo {
+    margin-block-start: 30px;
+}
+
+.left-side-content {
+    /* position: sticky;
+    top: 0; */
+    display: grid;
+    justify-content: center;
+}
+
+
+/* .lef-side-grid {
+    display: grid;
+    justify-content: center;
+} */
+
+.mylogo {
+    font-size: 50px;
+}
+
+.menu li {
+    padding-block-start: 30px;
+}
+
+.menu {
+    margin-block-start: 30px;
+}
+
+.left-side-content button {
+    margin-block-start: 30px;
+    font-size: 15px;
+    color: white;
+    padding: 17px;
+    width: 270px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.menu,
+.myhome .myexplore .mynotify .mymessages .mybookmarks .mylists .myprofile .mymore {
+    font-size: 30px;
+    /* padding-right: 70px; */
+}
+
+.myhome::before .myexplore::before .mynotify::before .mymessages::before .mybookmarks::before .mylists::before .myprofile::before .mymore::before {
+    padding-right: 70px;
+    content: "";
+}
+
+.mydownaddrow {
+    font-size: 27px;
+    padding-block-start: 25px;
+}
+
+.side-userprofile-font {
+    right: -60px;
+    position: absolute;
+}
+
+.side-userprofile {
+    margin-block-start: 170px;
+    display: flex;
+    position: relative;
+}
+
+.menu li a text {
+    padding-inline-start: 40px;
+    border-radius: 50%;
+}
+
+.side-userprofile-images {
+    display: inline-block;
+}
+
+.side-user-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.side-userprofile-details h2 {
+    padding-block-start: 10px;
+}
+
+.side-userprofile-details {
+    margin-inline-start: 20px;
+}
+
+
+/*Right side nav css style*/
+
+.twitter-search {
+    margin-block-start: 30px;
+    width: 320px;
+    margin-inline-start: 20px;
+    padding: 12px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.trending-post {
+    display: flex;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin-inline-start: 50px;
+    margin-block-start: 20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 250px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.li-tile h1 {
+    font-size: 17px;
+    color: rgb(197, 194, 194);
+}
+
+.trending-other-details p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
+
+.trending-other-details-01 p {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    color: rgb(197, 194, 194);
+}
+
+.trend-heading {
+    flex: 1;
+}
+
+.right-side-bar {
+    position: sticky;
+    top: 0;
+    height: 1000px;
+}
+
+.li-heads {
+    display: flex;
+}
+
+.trends-lis {
+    width: 340px;
+}
+
+.trends-lis-1 {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-inline-start: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.li-show-More {
+    padding: 20px;
+    color: lightskyblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin-inline-start: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.li-show-More a {
+    font-size: 20px;
+    color: lightskyblue;
+}
+
+.li-tile {
+    flex: 1;
+}
+
+.li-font {
+    margin-block-start: 5px;
+}
+
+
+/*Media queries css style*/
+
+@media screen and (max-width: 950px) {
+    .left-side-bar,
+    .right-side-bar {
+        display: none;
+    }
+    .left-side-bar.show {
+        display: block;
+    }
+}

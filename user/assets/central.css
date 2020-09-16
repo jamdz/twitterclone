@@ -1,0 +1,230 @@
+/*Central css styles*/
+
+.central-nav-images {
+    display: none;
+}
+
+.central-body-content {
+    width: 45%;
+    background-color: white;
+    border-left: 1px lightgrey solid;
+    border-right: 1px lightgrey solid;
+}
+
+.central-header {
+    display: flex;
+    margin-block-start: 20px;
+    border-bottom: 1px lightgrey solid;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    scroll-padding-block-start: 30px;
+}
+
+.central-header h1 {
+    flex: 11;
+    font-size: 30px;
+    padding-inline-start: 30px;
+    padding-block-start: 10px;
+}
+
+.central-font {
+    flex: 1;
+    padding-block-start: 15px;
+    font-size: 30px;
+}
+
+.tweet-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.tweet-feed-imags {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.twitter-tweet-box {
+    padding: 30px;
+    display: flex;
+    border-bottom: 14px lightgray solid;
+    height: 133px;
+}
+
+.tweet-box-form {
+    margin-block-start: 17px;
+    margin-inline-start: 20px;
+}
+
+.tweet-box-11 {
+    display: flex;
+    margin-block-start: 20px;
+}
+
+#tweet-box {
+    padding: 20px;
+    width: 30vw;
+    height: 2vh;
+    border: unset;
+}
+
+.tweet-box-font {
+    padding-block-start: 15px;
+}
+
+.tweet-body-fonts {
+    flex: 1;
+    font-size: 25px;
+}
+
+.tweet-btn {
+    padding: 15px;
+    width: 80px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.tweet-feed-li-heading {
+    margin-inline-start: 50px;
+}
+
+.tweet-feed-body-content {
+    display: flex;
+    margin-block-start: 10px;
+}
+
+.tweet-feed-li-user-heading {
+    display: flex;
+    width: 700px;
+    margin-block-start: 2px;
+    margin-inline-start: 15px;
+}
+
+.tweet-feed-li-user-heading h1 {
+    flex: 1;
+}
+
+.tweet-feed-li-font {
+    font-size: 20px;
+    padding-block-start: 7px;
+}
+
+.tweet-feed-img {
+    margin-inline-start: 30px;
+}
+
+.tweet-feed-li-fons {
+    margin-inline-end: 30px;
+}
+
+.tweet-feed-li-content {
+    padding-block-start: 5px;
+    font-size: 19px;
+}
+
+.tweet-feed-li-rows {
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+@media screen and (max-width: 950px) {
+    .central-nav-images {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .central-nav-img {
+        display: inline-block;
+        margin-block-start: 10px;
+        margin-inline-start: 15px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .central-body-content {
+        width: 100%;
+    }
+    /* .wrapper {
+        width: 100%;
+    } */
+    .tweet-feed-img {
+        margin-inline-start: 0;
+    }
+    .twitter-tweet-box {
+        padding: 20px;
+    }
+    .tweet-feed-l h4 {
+        font-size: 15px;
+    }
+    .tweet-feed-li-user-heading h1 {
+        font-size: 17px;
+    }
+    .tweet-feed-li-user-heading h1 a {
+        color: lightgray;
+    }
+    .tweet-feed-li-fons {
+        margin-inline-end: 0;
+    }
+    .tweet-feed-li-font {
+        padding-block-end: 77px;
+        padding-block-start: 0;
+    }
+    .central-header h1 {
+        font-size: 25px;
+        padding-block-start: 20px;
+        padding-inline-start: 10px;
+    }
+    .tweet-feed-li-content {
+        font-size: 15px;
+    }
+    .tweet-feed-span1,
+    .tweet-feed-span2 {
+        font-size: 15px;
+        color: rgb(182, 180, 180);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #tweet-box {
+        width: 45vw;
+    }
+    .tweet-box-form {
+        width: 250px;
+    }
+    .central-header {
+        margin-block-start: 0;
+    }
+}
+
+@media screen and (max-height: 470px) {
+    .tweet-box-form {
+        width: 450px;
+    }
+    #tweet-box {
+        width: 65vw;
+    }
+    .tweet-feed-img {
+        margin-inline-start: 30px;
+    }
+}
